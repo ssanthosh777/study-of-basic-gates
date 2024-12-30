@@ -63,7 +63,7 @@ Y= A⊕B
 
 
 **PROGRAM**
-
+```
 module logic_gates(a, b, c1, c2, c3, c4, c5, c6, c7);
     input a, b;
     output c1, c2, c3, c4, c5, c6, c7;
@@ -75,7 +75,7 @@ module logic_gates(a, b, c1, c2, c3, c4, c5, c6, c7);
     assign c6 = a ^ b;
     assign c7 = ~(a ^ b);
 endmodule
-
+```
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
